@@ -414,18 +414,18 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# inicio Section
 --------------------------------------------------------------*/
-#hero {
+#inicio {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+ /*  background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
   position: relative;
   padding: 0;
 }
 
-#hero:before {
+#inicio:before {
   content: "";
   background: rgba(13, 20, 26, 0.7);
   position: absolute;
@@ -435,7 +435,7 @@ h6 {
   right: 0;
 }
 
-#hero .hero-container {
+#inicio .inicio-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -448,7 +448,7 @@ h6 {
   text-align: center;
 }
 
-#hero h1 {
+#inicio h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -457,13 +457,13 @@ h6 {
   color: #fff;
 }
 
-#hero h2 {
+#inicio h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#inicio .btn-get-started {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -477,12 +477,12 @@ h6 {
   border: 2px solid #ff4a17;
 }
 
-#hero .btn-get-started:hover {
+#inicio .btn-get-started:hover {
   border-color: #fff;
   background: rgba(255, 255, 255, 0.1);
 }
 
-#hero .btn-watch-video {
+#inicio .btn-watch-video {
   font-size: 16px;
   display: inline-block;
   transition: 0.5s;
@@ -493,7 +493,7 @@ h6 {
   justify-content: center;
 }
 
-#hero .btn-watch-video i {
+#inicio .btn-watch-video i {
   line-height: 0;
   color: #fff;
   font-size: 32px;
@@ -501,23 +501,23 @@ h6 {
   margin-right: 8px;
 }
 
-#hero .btn-watch-video:hover i {
+#inicio .btn-watch-video:hover i {
   color: #ff4a17;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #inicio {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #inicio h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #inicio h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -528,7 +528,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -537,7 +537,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  
 }
 
 .section-title h2 {
@@ -943,6 +943,7 @@ section {
   padding: 30px;
   border-radius: 6px;
   background: #fff;
+  height: 12rem;
 }
 
 .services .icon-box i {
@@ -1257,7 +1258,7 @@ section {
 }
 
 .team .member {
-  margin-bottom: 80px;
+/*   margin-bottom: 80px; */
   position: relative;
 }
 
@@ -1266,10 +1267,10 @@ section {
 }
 
 .team .member .member-info {
-  position: absolute;
+  /* position: absolute;
   bottom: -50px;
   left: 20px;
-  right: 20px;
+  right: 20px; */
   background: #fff;
   padding: 20px 15px;
   color: #15222b;
@@ -1326,7 +1327,7 @@ section {
 
 @media (max-width: 992px) {
   .team .member {
-    margin-bottom: 110px;
+    margin-bottom: 30px;
   }
 }
 
@@ -1654,3 +1655,19 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
+.google-form-contenedor {    
+  width: 100%; 
+  /* overflow: hidden;  */
+ /*  padding-top: 100%; */
+  } 
+  
+.responsive-iframe { 
+ /*  position: absolute;  */
+ /*  top: 0; left: 0; 
+  bottom: 0; 
+  right: 0; */ 
+  width: 100vw; 
+  height: 100vh; 
+  border: none; 
+  } 
